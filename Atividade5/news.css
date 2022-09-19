@@ -1,0 +1,51 @@
+h1 {   
+    font-family: "Garamond", sans-serif;
+font-size : 50;
+}
+:root {
+    --margin: 10px;
+}
+.container-box {
+    justify-content: center;
+    flex-direction: row;
+    display: flex; /** display flexbox **/
+    flex-wrap: nowrap;
+    /* Define se os itens devem quebrar ou não a linha*/
+}
+.a {
+    width: calc((100%/3) - (var(--margin)* 2));
+   }   
+.box {
+    text-align: center;
+    background-color: #e2c260;
+    border-radius: 5px;
+    margin: var(--margin);
+    height: 120px;
+}   
+body {
+    background: #FFF1D6 url(imgone.jpg);
+    background-repeat: no-repeat;
+    font-family: "Garamond", Verdana, sans-serif;
+    line-height: 1.5;
+  background-attachment: fixed;
+}
+.container {
+margin: 0 auto;
+width: 960px;
+}
+header{
+    color: #ffcd37;
+}
+button{
+    text-align: center;
+    color:#000;
+    background-color: #e2c260;
+}
+footer{
+    text-align: center;
+    color: #ffcd37;
+}
+
+    
+    
+    
